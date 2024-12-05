@@ -1,0 +1,21 @@
+
+#
+# "Regions" plugin by uhm4, (discord: filipek#7330) version: v1.0.0
+#
+# "SPAWN" - Enter the radius (in blocks) of the spawn area here,
+#
+# "NO_BUILD" - Enter the radius (in blocks) within which the player 
+# will not be able to build outside of the respawn site,
+#
+# In "MESSAGE" enter a message that will be sent to the player when 
+# he will destroy or build blocks, in case there is no message - enter 
+# "none",
+#
+# In "DAMAGE_MESSAGE" enter a message that will be sent to the player 
+# when he beats other players, in case there is no message - enter 
+# "none",
+
+SPAWN: 100
+NO_BUILD: 500
+MESSAGE: '&cThis task has been blocked!'
+DAMAGE_MESSAGE: '&cFighting in this area is blocked!'

@@ -1,0 +1,137 @@
+enabled: true
+items:
+  ender_bag:
+    name: Ender Bag
+    item:
+      display_name: '&eEnder Bag'
+      material: PAPER
+      custom_model_data: 1
+      glow: false
+      hide_attributes: false
+      unbreakable: false
+    item-type: ENDER_CHEST
+  healing_infernal_sword:
+    name: Healing Infernal Sword
+    item:
+      display_name: '&eHealing Infernal Sword'
+      material: NETHERITE_SWORD
+      custom_model_data: 1
+      glow: false
+      hide_attributes: false
+      unbreakable: false
+    item-type: HEALTH
+    data:
+      heal-duration: 1
+  yunque_portatil_dorado:
+    name: Yunque Portatil Dorado
+    item:
+      display_name: '&fYunque Portátil Dorado'
+      material: PAPER
+      custom_model_data: 2
+      glow: false
+      hide_attributes: false
+      unbreakable: false
+    item-type: REPAIR_ARMOR
+  bloqueador:
+    name: Bloqueador
+    item:
+      display_name: '&fBloqueador'
+      material: PAPER
+      custom_model_data: 3
+    item-type: SUN_BLOCK
+    data:
+      sun-block-time: 10
+      interact-with-player: false
+  tenedor_de_resurreccion:
+    name: Tenedor de Resurrección
+    item:
+      display_name: '&fTenedor de Resurrección'
+      material: PAPER
+      custom_model_data: 4
+    item-type: RESURRECT
+    data:
+      loss-soul: false
+      menu: revive_player
+  cuchara:
+    name: Cuchara de Madera
+    item:
+      display_name: '&fCuchara de Madera'
+      material: PAPER
+      custom_model_data: 5
+  cuchara_de_resurreccion:
+    name: Cuchara de Resurrección
+    item:
+      display_name: '&fCuchara de Resurrección'
+      material: PAPER
+      custom_model_data: 6
+    item-type: RESURRECT
+    data:
+      loss-soul: true
+      menu: revive_player
+  pildora_del_experimento_110:
+    name: Píldora del Experimento 110
+    item:
+      display_name: '#6670eePíldora del #08139bExperimento 110'
+      material: GOLDEN_APPLE
+      custom_model_data: 1
+    item-type: RESET_ZOMBIFICATION
+  nutritotem:
+    name: Nutritótem
+    item:
+      display_name: '&fNutritótem'
+      material: TOTEM_OF_UNDYING
+      custom_model_data: 1
+  totem_reviil:
+    name: '&eTotem Reviil'
+    item:
+      display_name: '&eTotem Reviil'
+      material: TOTEM_OF_UNDYING
+      custom_model_data: 2
+  totem_ferreo:
+    name: '&eTotem Ferreo'
+    item:
+      display_name: '&eTotem Ferreo'
+      material: TOTEM_OF_UNDYING
+      custom_model_data: 3
+  totem_100:
+    name: '&eTotem 100'
+    item:
+      display_name: '&eTotem 100'
+      material: TOTEM_OF_UNDYING
+      custom_model_data: 4
+  totem_flashbang:
+    name: '&eTotem Flashbang'
+    item:
+      display_name: '&eTotem Flashbang'
+      material: TOTEM_OF_UNDYING
+      custom_model_data: 5
+  fogata:
+    name: '&eFogata'
+    item:
+      material: PAPER
+      custom_model_data: 11
+  menu-player:
+    name: '&eMenu de Jugador'
+    item:
+      display_name: '&f'
+      material: PLAYER_HEAD
+      custom_model_data: 1
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZiYTYzMzQ0ZjQ5ZGQxYzRmNTQ4OGU5MjZiZjNkOWUyYjI5OTE2YTZjNTBkNjEwYmI0MGE1MjczZGM4YzgyIn19fQ==
+  menu-flecha-derecha:
+    name: '&eMenu Flecha Derecha'
+    item:
+      display_name: '&7Siguiente'
+      material: PAPER
+      custom_model_data: 7
+  menu-flecha-izquierda:
+    name: '&eMenu Flecha Izquierda'
+    item:
+      display_name: '&7Anterior'
+      material: PAPER
+      custom_model_data: 8
+  menu-angel:
+    name: '&eMenu Ángel'
+    item:
+      display_name: '&7Revivir'
+      material: PAPER
+      custom_model_data: 9

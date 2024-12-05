@@ -1,0 +1,12 @@
+#-----------------------------------------------------------------------
+#Here you can configure some parameters of the timers.
+#-----------------------------------------------------------------------
+timer:
+  #This option indicates how long in seconds the timer should wait after finishing to clear the bossbar.
+  time_after_ending: 1
+  #This option disables the bossbar, but the timer still works.
+  bossbar: true
+  #This option gives the default color to the bossbar
+  bossbar-color: WHITE
+  #This option you can determine the sound of the timer if it is active
+  timer-sound: UI_BUTTON_CLICK

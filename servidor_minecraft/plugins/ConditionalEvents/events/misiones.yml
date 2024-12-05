@@ -1,0 +1,43 @@
+Events:
+  misionarmadura:
+    type: item_craft
+    enabled: true
+    conditions:
+    - '%item% == IRON_HELMET execute casco'
+    - '%item% == IRON_CHESTPLATE execute peto'
+    - '%item% == IRON_LEGGINGS execute pantalones'
+    - '%item% == IRON_BOOTS execute botas'
+    actions:
+      casco:
+      - 'console_command: svar set ironhelmet 1 %player%'
+      - 'message: crafteaste un casco de hierro'
+      peto:
+      - 'console_command: svar set ironchestplate 1 %player%'
+      - 'message: crafteaste un peto de hierro'
+      pantalones:
+      - 'console_command: svar set ironleggins 1 %player%'
+      - 'message: crafteaste un pantalon de hierro'
+      botas:
+      - 'console_command: svar set ironboots 1 %player%'
+      - 'message: crafteaste unas botas de hierro'
+  misionarmaduraentrega:
+    type: block_interact
+    enabled: true
+    one_time: true
+    conditions:
+    - '%block_x% == -543'
+    - '%block_y% == 139'
+    - '%block_z% == -269'
+    - '%block_world% == DEDSAFIO 3 - By TheNeitorLoL'
+    - '%block% == BARRIER'
+    - '%action_type% == RIGHT_CLICK'
+    - '%servervariables_value_otherplayer_{player}:ironhelmet% == 1'
+    - '%servervariables_value_otherplayer_{player}:ironchestplate% == 1'
+    - '%servervariables_value_otherplayer_{player}:ironleggins% == 1'
+    - '%servervariables_value_otherplayer_{player}:ironboots% == 1'
+    actions:
+      default:
+      - "to_all: message: &l&3&l%player% &3entrego la mision"
+      - 'console_command: give %player% dedsafio_3:deditas 5'
+      one_time:
+      - "message: &cya entregaste la mision pillin"

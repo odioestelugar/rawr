@@ -1,0 +1,29 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-16 08:22:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:deep_ocean": "2024-11-16 08:44:27 +0000",
+      "minecraft:bamboo_jungle": "2024-11-16 08:22:35 +0000",
+      "minecraft:plains": "2024-11-16 08:44:10 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2024-11-16 08:49:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2024-11-16 08:49:39 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

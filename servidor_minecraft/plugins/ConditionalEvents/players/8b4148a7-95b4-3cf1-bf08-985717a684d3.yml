@@ -1,0 +1,5 @@
+name: pablorelojero
+events:
+  misionarmaduraentrega:
+    one_time: true
+    cooldown: 0

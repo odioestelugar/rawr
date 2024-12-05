@@ -1,0 +1,349 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3465
+'1':
+  uniqueId: bf75aa84-e7b1-4b1a-bb59-a32935df2d9f
+  world: DEDSAFIO 3 - By TheNeitorLoL
+  x: -600
+  y: 141
+  z: -287
+  yaw: 257.07126
+  type: admin
+  name: tradeos
+  object:
+    type: villager
+    baby: false
+    profession: FLETCHER
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITA_GOLD
+        amount: 5
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+  snapshots: []
+'2':
+  uniqueId: 003e5d19-8832-4f6c-83eb-71a577d73bde
+  world: DEDSAFIO 3 - By TheNeitorLoL
+  x: -598
+  y: 141
+  z: -290
+  yaw: 226.76068
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Healing
+            Infernal Sword"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+            is a special item."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"It
+            can be used to heal yourself."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"You
+            can use it to heal yourself."}],"text":""}'
+          custom-model-data: 1
+          PublicBukkitValues:
+            dtools3:items: healing_infernal_sword
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 20
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Ender
+            Bag"}],"text":""}'
+          custom-model-data: 1
+          PublicBukkitValues:
+            dtools3:items: ender_bag
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 20
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: TOTEM_OF_UNDYING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Nutritótem"}],"text":""}'
+          custom-model-data: 1
+          PublicBukkitValues:
+            dtools3:items: nutritotem
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 20
+  snapshots: []
+'3':
+  uniqueId: faa6252f-36df-4b4b-9879-7e34194f10ad
+  world: DEDSAFIO 3 - By TheNeitorLoL
+  x: -592
+  y: 141
+  z: -290
+  yaw: 147.6578
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_LIME_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_WHITE_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_ORANGE_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_RED_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_PINK_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_PURPLE_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_YELLOW_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_BLACK_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_BLUE_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_CYAN_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_GRAY_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '12':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_GREEN_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '13':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_LIGHT_BLUE_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '14':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_LIGHT_GRAY_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+    '15':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PACOMODSFORGE_MAGENTA_SHULKER_BAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 10
+  snapshots: []

@@ -1,0 +1,14 @@
+location: DEDSAFIO 3 - By TheNeitorLoL:-542.541:142.129:-268.482
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e¡MISIONES!&e'
+    height: 0.3
+  - content: '&aReclama tu mision haciendole click derecho al pilar de arriba&a'
+    height: 0.3
+  actions: {}

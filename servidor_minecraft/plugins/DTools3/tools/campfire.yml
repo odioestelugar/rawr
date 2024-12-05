@@ -1,0 +1,20 @@
+enabled: true
+config:
+  max-ticks: 0
+  fade-in: 0
+  stay: 5
+  fade-out: 0
+  message-type: TITLE
+campfires:
+  default:
+    name: '&eFogata'
+    item-template: fogata
+    items-allowed:
+    - cuchara_de_resurreccion
+    - tenedor_de_resurreccion
+    action: OPEN_MENU
+    data:
+      corn1: DEDSAFIO 3 - By TheNeitorLoL,-538.0,203.0,-268.0
+      corn2: DEDSAFIO 3 - By TheNeitorLoL,-542.0,204.0,-264.0
+      spawn: DEDSAFIO 3 - By TheNeitorLoL,-540.0,203.0,-266.0,0.0,0.0
+      respawn: DEDSAFIO 3 - By TheNeitorLoL,-536.6999999880791,203.0,-264.17543999216406,-85.58313,-17.54185

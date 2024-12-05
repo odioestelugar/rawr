@@ -1,0 +1,12 @@
+enabled: true
+config:
+  fade-in: 10
+  stay: 20
+  fade-out: 10
+  message-type: TITLE
+transitions:
+  default:
+    name: '&cTransition Default'
+    frame: ':transition-icon:'
+    override: true
+    transition-type: TELEPORT

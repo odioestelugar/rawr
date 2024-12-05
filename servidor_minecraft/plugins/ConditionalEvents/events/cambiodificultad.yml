@@ -1,0 +1,106 @@
+Events:
+  boton:
+    type: block_interact
+    enabled: true
+    conditions:
+    - '%block% == STONE_BUTTON or %block% == OAK_BUTTON or %block% == ACACIA_BUTTON
+      or %block% == BAMBOO_BUTTON or %block% == BIRCH_BUTTON or %block% == CHERRY_BUTTON
+      or %block% == CRIMSON_BUTTON or %block% == JUNGLE_BUTTON or %block% == LEGACY_STONE_BUTTON
+      or %block% == LEGACY_WOOD_BUTTON or %block% == MANGROVE_BUTTON or %block% ==
+      POLISHED_BLACKSTONE_BUTTON or %block% == SPRUCE_BUTTON or %block% == WARPED_BUTTON'
+    - '%action_type% == RIGHT_CLICK'
+    actions:
+      default:
+      - 'damage: 999999999999'
+  creeper:
+    type: entity_spawn
+    enabled: false
+    conditions:
+    - '%entity% == CREEPER'
+    - '%reason% == NATURAL'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: summon creeper %entity_x% %entity_y% %entity_z% {powered:1}'
+  caida:
+    type: player_damage
+    enabled: false
+    conditions:
+    - '%cause% == FALL'
+    actions:
+      default:
+      - 'set_damage: 300%'
+  lavapurificadora:
+    type: repetitive
+    repetitive_time: 10
+    enabled: false
+    conditions:
+    - '%playerblock_inside% == LAVA'
+    actions:
+      default:
+      - 'remove_potion_effect: FIRE_RESISTANCE'
+  totem:
+    type: custom
+    enabled: false
+    custom_event_data:
+      event: org.bukkit.event.entity.EntityResurrectEvent
+      player_variable: getEntity()
+      variables_to_capture:
+      - '%res%;isCancelled()'
+    conditions:
+    - '%res% equals false'
+    actions:
+      default:
+      - 'to_all: message: &l%player% &l&6ha consumido un totem'
+  mobstres:
+    type: player_damage
+    enabled: false
+    conditions:
+    - '%cause% == ENTITY_ATTACK'
+    actions:
+      default:
+      - 'set_damage: 300%'
+  puertas:
+    type: block_interact
+    enabled: false
+    conditions:
+    - '%block% == ACACIA_DOOR or %block% == BAMBOO_DOOR or %block% == BIRCH_DOOR or
+      %block% == CHERRY_DOOR or %block% == COPPER_DOOR or %block% == CRIMSON_DOOR
+      or %block% == DARK_OAK_DOOR or %block% == EXPOSED_COPPER_DOOR or %block% ==
+      IRON_DOOR or %block% == JUNGLE_DOOR or %block% == LEGACY_ACACIA_DOOR or %block%
+      == LEGACY_BIRCH_DOOR or %block% == LEGACY_DARK_OAK_DOOR or %block% == LEGACY_IRON_DOOR
+      or %block% == LEGACY_JUNGLE_DOOR or %block% == LEGACY_SPRUCE_DOOR or %block%
+      == LEGACY_WOOD_DOOR or %block% == LEGACY_WOODEN_DOOR or %block% == MANGROVE_DOOR
+      or %block% == OAK_DOOR or %block% == OXIDIZED_COPPER_DOOR or %block% == PALE_OAK_DOOR
+      or %block% == SPRUCE_DOOR or %block% == WARPED_DOOR WAXED_COPPER_DOOR or %block%
+      == WAXED_EXPOSED_COPPER_DOOR or %block% == WAXED_OXIDIZED_COPPER_DOOR or %block%
+      == WAXED_WEATHERED_COPPER_DOOR or %block% == WEATHERED_COPPER_DOOR'
+    - '%action_type% == RIGHT_CLICK'
+    actions:
+      default:
+      - 'damage: 999999999999'
+  arana:
+    type: player_damage
+    enabled: true
+    conditions:
+    - '%cause% == ENTITY_ATTACK'
+    - '%damager_type% == SPIDER'
+    actions:
+      default:
+      - 'set_block: location:%player_x%,%player_y%,%player_z%,%player_world%;id:COBWEB'
+  telarana:
+    type: block_break
+    enabled: true
+    conditions:
+    - '%block% == COBWEB'
+    actions:
+      default:
+      - 'summon: location:%block_x%,%block_y%,%block_z%,%block_world%;entity:CAVE_SPIDER;amount:3'
+  danoagacharse:
+    type: player_sneak
+    enabled: false
+    conditions:
+    - '%is_sneaking% == true'
+    actions:
+      default:
+      - 'damage: 9999999'
